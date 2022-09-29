@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace sintaxe_em_c_.Models
+namespace sintaxe_em_c_.Models.PessoaCopia
 {
     public class Pessoa //uma classe, nada mais é que um molde (objeto da vida real) que vc quer representar, somente representação do que é no mundo real
     {
