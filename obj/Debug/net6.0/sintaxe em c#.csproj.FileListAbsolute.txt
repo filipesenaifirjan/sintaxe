@@ -1,0 +1,15 @@
+C:\Users\Serratec\Desktop\sintaxe em c#\bin\Debug\net6.0\sintaxe em c#.exe
+C:\Users\Serratec\Desktop\sintaxe em c#\bin\Debug\net6.0\sintaxe em c#.deps.json
+C:\Users\Serratec\Desktop\sintaxe em c#\bin\Debug\net6.0\sintaxe em c#.runtimeconfig.json
+C:\Users\Serratec\Desktop\sintaxe em c#\bin\Debug\net6.0\sintaxe em c#.dll
+C:\Users\Serratec\Desktop\sintaxe em c#\bin\Debug\net6.0\sintaxe em c#.pdb
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.csproj.AssemblyReference.cache
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.AssemblyInfoInputs.cache
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.AssemblyInfo.cs
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.csproj.CoreCompileInputs.cache
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.dll
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\refint\sintaxe em c#.dll
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.pdb
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\sintaxe em c#.genruntimeconfig.cache
+C:\Users\Serratec\Desktop\sintaxe em c#\obj\Debug\net6.0\ref\sintaxe em c#.dll
