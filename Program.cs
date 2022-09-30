@@ -2,16 +2,25 @@
 //Obs: Se a sua classe não estiver sendo reconhecida, presta atenção no namespace
 
 string apresentacao = "Olá, não seja bem vindo e não venha";
-int quantidade = 1;
-double altura = 1.90;
+int quantidade = 1; 
+Console.WriteLine("Valor da variável quantidade: " + quantidade);//nesse caso ela lê pq estou dando ordem pra imprimir esse resultado antes de ler o de baixo
+
+quantidade = 10;// nesse caso ele passa o valor para 10 pe ele lê a segunda linha após a primeira
+Console.WriteLine("Valor da variável quantidade: " + quantidade); //int está declarado acima e não precisa e nem pode declarar int novamente
+
+double altura = 1.90; //o double não é recomendado nesse caso pq ele ingora o zero nesse caso
 decimal preco = 10.35M;
 bool condicao = true;
 
-Console.WriteLine(apresentacao);
-Console.WriteLine("Valor da variável quantidade: " + quantidade);
-Console.WriteLine("Valor da variável altura: " + altura);
-Console.WriteLine("Valor da variável preco: " + preco);
-Console.WriteLine("Valor da variável condicao: " + condicao);
+
+
+
+
+//Console.WriteLine(apresentacao);
+//Console.WriteLine("Valor da variável quantidade: " + quantidade);
+//Console.WriteLine("Valor da variável altura: " + altura);
+//Console.WriteLine("Valor da variável preco: " + preco);
+//Console.WriteLine("Valor da variável condicao: " + condicao);
 
             //a variável(pessoa1) começa com letra minúscula e se tiver mais de uma palavra, aí sim usa letra maiúscula
 //Pessoa pessoa1 = new Pessoa(); //a pessoa1 pode levar qualquer nome, ali é o nome da variável, vc pode modificar, pois se trata de uma instância.. lemnbra que aqui não é o nome da pessoa, e sim o nome da variável, o endereço na memória ok
