@@ -1,6 +1,6 @@
 ﻿using sintaxe_em_c_.Models; //aqui se trata de um caminho (lógico) que não é referenciado em pastas (não precisa)
 //Obs: Se a sua classe não estiver sendo reconhecida, presta atenção no namespace
-
+            //a variável(pessoa1) começa com letra minúscula e se tiver mais de uma palavra, aí sim usa letra maiúscula
 Pessoa pessoa1 = new Pessoa(); //a pessoa1 pode levar qualquer nome, ali é o nome da variável, vc pode modificar, pois se trata de uma instância.. lemnbra que aqui não é o nome da pessoa, e sim o nome da variável, o endereço na memória ok
 
 pessoa1.Nome = "Filipe"; //passando os dados
@@ -13,3 +13,8 @@ pessoa1.Apresentar(); //apresentar é um método e por isso tem ()
 //outro detalhe, o compilador vai ignorar qualquer espaço que vc der dentro do seu código ou quebra de linha dentro do código
 
 //seguindo com exemplos: camelCase PascalCase  snake_case spinal-case, repara que, cada um tem uma sintaxe diferente
+//nome de classe, propriedade e método é sempre em PascalCase
+//a convenção não vai travar seu código, mas é importante seguir a convenção de cada linguagem assim a gente mantém o padrão e não bagunça o código
+//nome de variáveis e classes, a gente nunca abrevia, é recomendável que vc escreva sempre o nome por extenso
+//Boas práticas... ter o nome da classe igual o nome do arquivo, ex: Pessoa.cs como arquivo e classe Pessoa
+//não pode ter caracteres especiais nas variáveis, classes e propriedades, o único que é aceitável é 0 _ por conta do snake_case, nesse caso, ele vai interpretar como snake_case
