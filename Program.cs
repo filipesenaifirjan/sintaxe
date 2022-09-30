@@ -1,16 +1,20 @@
 ﻿using sintaxe_em_c_.Models; //aqui se trata de um caminho (lógico) que não é referenciado em pastas (não precisa)
+
 //Obs: Se a sua classe não estiver sendo reconhecida, presta atenção no namespace
 
-string apresentacao = "Olá, não seja bem vindo e não venha";
-int quantidade = 1; 
-Console.WriteLine("Valor da variável quantidade: " + quantidade);//nesse caso ela lê pq estou dando ordem pra imprimir esse resultado antes de ler o de baixo
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine(dataAtual);
 
-quantidade = 10;// nesse caso ele passa o valor para 10 pe ele lê a segunda linha após a primeira
-Console.WriteLine("Valor da variável quantidade: " + quantidade); //int está declarado acima e não precisa e nem pode declarar int novamente
+//string apresentacao = "Olá, não seja bem vindo e não venha";
+//int quantidade = 1; 
+//Console.WriteLine("Valor da variável quantidade: " + quantidade);//nesse caso ela lê pq estou dando ordem pra imprimir esse resultado antes de ler o de baixo
 
-double altura = 1.90; //o double não é recomendado nesse caso pq ele ingora o zero nesse caso
-decimal preco = 10.35M;
-bool condicao = true;
+//quantidade = 10;// nesse caso ele passa o valor para 10 pe ele lê a segunda linha após a primeira
+//Console.WriteLine("Valor da variável quantidade: " + quantidade); //int está declarado acima e não precisa e nem pode declarar int novamente
+
+//double altura = 1.90; //o double não é recomendado nesse caso pq ele ingora o zero nesse caso
+//decimal preco = 10.35M;
+//bool condicao = true;
 
 
 
