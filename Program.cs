@@ -2,8 +2,21 @@
 
 //Obs: Se a sua classe não estiver sendo reconhecida, presta atenção no namespace
 
-DateTime dataAtual = DateTime.Now.AddHours(2);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));// ele permite somar datas, dias, meses, anos
+
+int a = 10; //operador de atribuição é o = que vc usa quando quer modificar o valor da variável
+int b = 30;
+
+int c = a + b;
+Console.WriteLine(c);
+
+
+
+
+
+
+
+//DateTime dataAtual = DateTime.Now.AddHours(2);
+//Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));// ele permite somar datas, dias, meses, anos
 
 //string apresentacao = "Olá, não seja bem vindo e não venha";
 //int quantidade = 1; 
