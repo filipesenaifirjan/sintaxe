@@ -1,11 +1,24 @@
 ﻿using sintaxe_em_c_.Models; //aqui se trata de um caminho (lógico) que não é referenciado em pastas (não precisa)
 //Obs: Se a sua classe não estiver sendo reconhecida, presta atenção no namespace
-            //a variável(pessoa1) começa com letra minúscula e se tiver mais de uma palavra, aí sim usa letra maiúscula
-Pessoa pessoa1 = new Pessoa(); //a pessoa1 pode levar qualquer nome, ali é o nome da variável, vc pode modificar, pois se trata de uma instância.. lemnbra que aqui não é o nome da pessoa, e sim o nome da variável, o endereço na memória ok
 
-pessoa1.Nome = "Filipe"; //passando os dados
-pessoa1.Idade = 15;//passando os dados 
-pessoa1.Apresentar(); //apresentar é um método e por isso tem ()
+string apresentacao = "Olá, não seja bem vindo e não venha";
+int quantidade = 1;
+double altura = 1.90;
+decimal preco = 10.35M;
+bool condicao = true;
+
+Console.WriteLine(apresentacao);
+Console.WriteLine("Valor da variável quantidade: " + quantidade);
+Console.WriteLine("Valor da variável altura: " + altura);
+Console.WriteLine("Valor da variável preco: " + preco);
+Console.WriteLine("Valor da variável condicao: " + condicao);
+
+            //a variável(pessoa1) começa com letra minúscula e se tiver mais de uma palavra, aí sim usa letra maiúscula
+//Pessoa pessoa1 = new Pessoa(); //a pessoa1 pode levar qualquer nome, ali é o nome da variável, vc pode modificar, pois se trata de uma instância.. lemnbra que aqui não é o nome da pessoa, e sim o nome da variável, o endereço na memória ok
+
+//pessoa1.Nome = "Filipe"; //passando os dados
+//pessoa1.Idade = 15;//passando os dados 
+//pessoa1.Apresentar(); //apresentar é um método e por isso tem ()
 //outro detalhe importante é o .(dot) que mostra o que vc pode fazer com a (pessoa1) sempre que add algo, mudar a variavel, chamar metodo, tem que colocar o .(dot)
 //todo final de comando tem que ter ; 
 //Pra pular uma linha dentro do código, vc fecha a string com aspas dupla e acrescenta o + MAS isso só acontece no código
