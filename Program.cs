@@ -6,7 +6,8 @@
 int a = 10; //operador de atribuição é o = que vc usa quando quer modificar o valor da variável
 int b = 30;
 
-int c = a + b;
+int c = a + b;//combinando operadores
+c = c +5;
 Console.WriteLine(c);
 
 
